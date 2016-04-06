@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>320X320 Test Page</title>
+
+<!--
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/app.css">
+-->
+<style>
+#Container {
+    position: relative;
+    width: 1280px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tile-list {
+    display: flex;
+    /*font-size: 0;*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.tile {
+    /*display: inline-block;*/
+    margin: 0px;
+    padding: 0px;
+    width: 320px;
+    height: 320px;
+    list-style-type:none;
+}
+
+</style>
+
+</head>
+<body>
+<nav class="top-bar">
+<div class="row">
+<ul class="title-area">
+<li class="name"><h1>小田章テストページ</h1></li>
+</ul>
+</div>
+</nav>
+
+<nav class="breadcrumbs">
+
+</nav>
+
+<div id="wrapper" class="row">
+
+
+<div>
+
+<section>
+
+
+
+<section class="demo-area">
+
+
+<!--text-justify追加-->
+<div id="Container">
+<ul id="tile-list" class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+<li class="tile green" data-myorder="1"><p>vim</p></li>
+<li class="tile green" data-myorder="8"><img alt="" src="images/green.png" class="" /></li>
+<li class="tile yellow" data-myorder="10"><img alt="" src="images/yellow.png" class="th" /></li>
+<li class="tile green" data-myorder="2"><img alt="" src="images/green.png" class="th" /></li>
+<li class="tile green" data-myorder="1000"><img alt="" src="images/green.png" class="th" /></li>
+<li class="tile red" data-myorder="20"><img alt="" src="images/red.png" class="th" /></li>
+<li class="tile red" data-myorder="30"><img alt="" src="images/red.png" class="th" /></li>
+<li class="tile green" data-myorder="3"><img alt="" src="images/green.png" class="th" /></li>
+<li class="tile green" data-myorder="4"><img alt="" src="images/green.png" class="th" /></li>
+<li class="tile yellow" data-myorder="101"><img alt="" src="images/yellow.png" class="th" /></li>
+<li class="tile yellow" data-myorder="10000"><img alt="" src="images/yellow.png" class="th" /></li>
+<li class="tile green" data-myorder="111"><img alt="" src="images/green.png" class="th" /></li>
+<li class="tile red" data-myorder="5"><img alt="" src="images/red.png" class="th" /></li>
+</ul>
+</div>
+<!-- /.demo-area --></section>
+
+</section>
+</div>
+
+<footer>
+
+</footer>
+<!-- /#wrapper --></div>
+
+
+<script>window.jQuery || document.write("<script src='jquery.js'>\x3C/script>")</script>
+
+<!--
+<script src="jquery.mixitup.min.js"></script>
+
+<script>
+$(function(){
+$('#Container').mixItUp();
+});
+</script>
+-->
+<script src="change-size.js"></script>
+
+</body>
+</html>
