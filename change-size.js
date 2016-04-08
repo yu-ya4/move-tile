@@ -1,5 +1,4 @@
 $(function(){
-
     //座標計算
     //要素は4列並ぶものとする
     var calcPosition = function(order){
@@ -22,9 +21,7 @@ $(function(){
         x =  +tile.css('left').replace('px', '');
         y = +tile.css('top').replace('px', '');
 
-        var order = x / 320 + y / 80;
-
-        return order;
+        return x / 320 + y / 80;
     };
 
 
